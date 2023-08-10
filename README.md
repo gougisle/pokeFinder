@@ -10,5 +10,5 @@ This is just a simple little React project that I started for fun and have used 
 
 # Important things to note
 
-- Currently the PokeAPI does not conatin data for ALL pokemon
-- I do not own any rights to the pokemon brand or their characters/pokemon, this app does not have any association with the company or brand Pokemon
+- Currently the PokeAPI does not conatin data for ALL pokemon.
+- I do not own any rights to the pokemon brand or their characters/pokemon, this app does not have any association with the company or brand Pokemon.
