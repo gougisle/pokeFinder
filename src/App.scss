@@ -1,0 +1,85 @@
+body {
+  background-color: rgba(0, 0, 0, 0.452);
+}
+.App {
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .searchbar {
+    font-size: large;
+    input {
+      border: none;
+      display: inline;
+      border-radius: 20px 0px 0px 20px;
+      padding: 10px;
+      &:focus-visible {
+        outline: none;
+        border: none;
+      }
+    }
+    .search-button {
+      border: none;
+      padding: 10px;
+      padding-right: 14px;
+      color: rgba(255, 255, 0, 0.829);
+      background-color: black;
+      border-radius: 0px 20px 20px 0px; //top-left top-right bottom-right bottom-left
+      &:hover {
+        color: black;
+        background-color: rgba(255, 255, 0, 0.829);
+      }
+    }
+  }
+  // .pokemon-info-card {
+  //   width: 50em;
+  // }
+  .searchbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  // .pokemon-info-card-container {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+  .generation-buttons-outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .generation-button {
+      font-size: 1.5em;
+      padding-left: 2em;
+      padding-right: 2em;
+      background-color: black;
+      color: rgb(183, 245, 159);
+      border: solid 1px rgb(183, 245, 159);
+    }
+  }
+  .poke-tab {
+    transition: all 0.5s ease-out;
+    &:hover {
+      color: rgb(183, 245, 159);
+      background-color: rgb(0, 0, 0);
+
+      cursor: pointer;
+    }
+  }
+  .poke-list {
+    max-height: 100vh;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      width: 1rem;
+      background-color: rgb(0, 0, 0);
+      border-radius: 15px;
+    }
+    &.poke-list::-webkit-scrollbar-thumb {
+      background-color: rgb(183, 245, 159);
+      border-radius: 15px;
+    }
+  }
+}

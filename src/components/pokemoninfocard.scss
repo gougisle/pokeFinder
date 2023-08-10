@@ -1,0 +1,52 @@
+.info-card-inner {
+  background-color: rgba(255, 255, 255, 0.329);
+  border: solid white 10px;
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+.info-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin: 10px;
+  .info-card-description {
+    margin-left: 2em;
+    max-width: 40em;
+    .description-items-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 75%;
+    }
+    .description-name {
+      font-size: 80px;
+    }
+    .description {
+      margin-top: 5px;
+      margin-right: 10px;
+    }
+
+    .flavor-text {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+  }
+  .info-card-img {
+    width: 18em;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.733);
+    margin: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.info-card-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .info-card-stats-inner {
+    width: 100%;
+  }
+}
